@@ -8,7 +8,8 @@ const el = document.getElementById('root');
 const root = ReactDom.createRoot(el);
 //  4) Create a component
 function App(){
-    return <h1>Hi there</h1>
+  
+ return <textarea autoFocus={true}/>
 }
 //  5) show the component on the screen
 root.render(<App />)
